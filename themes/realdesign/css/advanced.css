@@ -1,0 +1,65 @@
+/*
+Theme Name: RealDesign
+Author: All Praise Media LLP
+Author URI: http://www.allpraisemedia.com
+*/
+
+
+.attachment-blog_post_image, .size-large {
+	width:80%;
+	height:80%;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px #000;
+}
+
+.continue, .continue a:link, .continue a:visited, .continue a:active{
+	color:#000000;
+	text-decoration: none;
+}
+
+.continue a:link, #reply-title, #title {
+    border-radius: 6px;
+    clear: both;
+    display: block;
+    padding: 0 6px;
+}
+
+.continue a:link, #reply-title {
+    margin: 0 1px;
+}
+
+/*#primary, #secondary{*/
+#rightsidebar {
+	/*width:220px;*/
+	width:29%;/*Added 3/10/2017 - JCT*/ 
+	float:right; 
+	min-height: 700px;
+}
+
+#primary, #primary a:link, #primary a:visited, #primary a:active,
+#secondary, #secondary a:link, #secondary a:visited, #secondary a:active,
+#banner { 
+	color:#FFF;
+}
+
+#primary ul {
+	list-style-type: none;
+	margin-left:-30px;
+}
+
+.widget-title, .widgettitle {
+	font-weight: bold;
+    border-top-left-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 4px 0 4px 15px;
+    text-align: left;
+}
+
+iframe {
+	width:95%;
+	height:95%;
+}

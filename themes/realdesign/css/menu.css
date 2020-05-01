@@ -1,0 +1,106 @@
+/*
+Theme Name: RealDesign
+Author: James Turner
+Author URI: http://www.allpraisemedia.com
+*/
+/***************************************
+* Primary Menu 
+***************************************/
+#left ul a{
+/*font-size:24px;*/
+font-size:1.5em;/*Added 3/10/2017 - JCT*/
+}
+#left ul li  {
+list-style: none;
+padding: 2px 0;
+display:block;
+}
+#left ul ul {	
+z-index: 99999;
+top: 0;
+left: 0;
+display: none;
+position:relative;
+}
+#left ul li:hover > ul {
+display: block;
+}
+.menu-header ul {
+margin-left: -15px;
+}
+/***************************************
+* Secondary Menu 
+***************************************/
+.menu-footer a, #footer .menu ul a {
+list-style-type:none;
+margin:0;
+padding-top:10px;
+text-align: center;
+color:#000;
+min-height:30px;
+text-decoration:none;
+}
+.menu-footer li, .menu-footer ul, .menu-footer ul li, #footer .menu ul li{
+display:inline;
+padding-left:7px;	
+padding-right:7px;
+margin-left:-5px;
+}
+#footer .menu ul ul, #footer .menu ul ul ul {
+display:none;
+}
+/***************************************
+* Tertiary Menu 
+***************************************/
+body .usermenu {
+border:medium none;
+border-collapse: collapse;
+border-spacing: 0;
+cursor: pointer;
+display:block;
+outline: medium none;
+position: fixed;
+top:40%;
+z-index:2;
+min-height:150px;
+padding:5px 10px 5px 10px;
+border-radius: 0px 10px 10px 0px;
+}
+.usermenu a{
+display:block;
+color:#fff;	
+}
+.usermenu a:hover{
+text-decoration:none;	
+}
+.usermenu ul li{
+list-style-type:none;
+padding:5px 2px 5px 0px;
+}
+.usermenu ul ul{
+position:absolute;
+left:-9999px;
+}
+.usermenu ul li li{
+border-radius: 0px 10px 10px 0px;
+padding:5px 2px 5px 0px;
+white-space:nowrap;
+}
+.usermenu li:hover ul{
+left:144px;
+margin-top:-24px; 
+}
+.usermenu li:hover ul li:hover{
+background:#F3F3F3;
+}
+#container table ul li{
+font-size:20px;
+line-height:25px;
+list-style-type:none;
+}
+#container table ul li li{
+font-size:13px;
+line-height:20px;
+list-style-type:square;
+margin-top:-2px;
+}
